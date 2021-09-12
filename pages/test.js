@@ -1,7 +1,18 @@
 import Image from 'next/image'
 import Script from 'next/script'
+import { useState, useEffect } from 'react'
 
 function Test() {
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    setPhone("+18334091351")
+    const unencodedMessage = "Send this message to subscribe! (ref: TEST)"
+    const encodedMessage = encodeURIComponent(unencodedMessage)
+    setMessage(encodedMessage);
+  }, [phone, message])
+
   return (
     <div className="flex flex-col min-h-screen">
       <div className="w-full h-56 relative">
@@ -13,7 +24,7 @@ function Test() {
         />
       </div>
       <div className="flex flex-col flex-grow bg-white rounded-tr-3xl p-4 z-10 -mt-4">
-        <div className="w-32 h-32 p-2 rounded-lg shadow-lg border border-gray-200 flex justify-center items-center bg-white -mt-20">
+        <div className="w-32 h-32 p-2 rounded-lg shadow-lg border-2 border-gray-200 flex justify-center items-center bg-white -mt-20">
           <Image
             src="https://upload.wikimedia.org/wikipedia/commons/4/40/BigBallerBrand.jpg"
             alt="business-logo"
@@ -21,20 +32,30 @@ function Test() {
             height="226"
           />
         </div>
-        <div className="mt-4">
+        <div className="mt-4 mb-12">
           <h1 className="text-3xl questrial font-bold">Big Baller Brand</h1>
           <p className="mt-2 text-gray-700">
             By joining the Big Baller Brand loyalty club, you will receive weekly exclusive promotions sent straight to your phone!
             Get discounts and special offers on shoes, hoodies, and the rest of our apparel!
           </p>
         </div>
-        <div className="mt-auto">
-          <div className="mt-6 klaviyo-form-SAnxvd"></div>
+        <div className="mt-auto flex flex-col">
+          <a
+            href={`sms:${phone}?&body=${message}`}
+            className="w-full bg-black text-white text-center p-3 rounded hover:bg-purple-700"
+          >
+            Join now!
+          </a>
+          <p className="text-gray-500 text-xs mt-4">
+            By texting, you agree to receive marketing text messages from our company at the number used, including messages sent by autodialer.
+            Consent is not a condition of purchase.
+            Message and data rates may apply.
+            Message frequency varies.
+            Reply HELP for help or STOP to cancel.
+            View our Privacy Policy and Terms of Service.
+          </p>
         </div>
       </div>
-      <Script
-        src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=SM5Fph"
-      />
     </div>
   )
 }
