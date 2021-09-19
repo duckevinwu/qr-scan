@@ -34,7 +34,7 @@ export default function Home() {
                     <p className="sm:text-lg leading-relaxed mb-6 text-gray-800">
                       Benefact helps small businesses retain customers and grow revenue.
                     </p>
-                    <a href="/">
+                    <a href="#pricing">
                       <button className="transition duration-300 ease-in-out text-white bg-black border-0 py-3 px-6 focus:outline-none rounded hover:bg-purple-400 hover:text-black cursor-pointer">Get started <i className="bi-chevron-right ml-6"></i></button>
                     </a>
                   </div>
@@ -122,7 +122,7 @@ export default function Home() {
             <RevenueCalculator className="lg:w-1/2 md:w-2/3 w-full"/>
           </div>
         </section>
-        <section className="text-gray-600 bg-purple-50">
+        <section id="pricing" className="text-gray-600 bg-purple-50">
           <div className="container px-3 lg:px-5 py-24 mx-auto">
             <div className="flex flex-col text-center w-full mb-10">
               <h1 className="text-4xl font-bold questrial mb-2">Simple, transparent pricing</h1>

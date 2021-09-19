@@ -52,7 +52,7 @@ export default class RevenueCalculator extends React.Component {
             All of these values are conservative, as we strive to achieve an open rate of 98%, a conversion rate of 25%, and an average spend of at least $20.
           </p>
         </div>
-        <a href="/">
+        <a href="#pricing">
           <button className="transition duration-300 ease-in-out text-white bg-purple-600 border-0 py-3 px-6 focus:outline-none rounded hover:bg-purple-500 cursor-pointer">Get started <i className="bi-chevron-right ml-6"></i></button>
         </a>
       </div>
