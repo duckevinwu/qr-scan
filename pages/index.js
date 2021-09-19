@@ -9,7 +9,6 @@ export default function Home() {
     <>
       <Head>
         <title>Benefact</title>
-        <meta name="description" content="Benefact helps small businesses retain customers and grow revenue." />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.min.css"/>
       </Head>
@@ -50,7 +49,7 @@ export default function Home() {
         <section className="bg-black">
           <div className="container mx-auto px-3 py-12 lg:px-5">
             <h1 className="questrial uppercase text-gray-400 tracking-widest">Our solution</h1>
-            <div className="pt-6 lg:flex lg:items-center" data-aos="fade-up">
+            <div className="pt-6 lg:flex lg:items-center">
               <div className="lg:w-1/2 lg:flex lg:justify-center">
                 <div className="flex flex-col">
                   <h2 className="questrial font-bold text-white text-4xl">We all know what's wrong</h2>
@@ -66,7 +65,7 @@ export default function Home() {
                 <img className="mt-8 lg:mt-0 solution-image" src="/problem.svg" alt="problem"></img>
               </div>
             </div>
-            <div className="mt-24 lg:flex lg:flex-row-reverse lg:items-center" data-aos="fade-up" data-aos-delay="250">
+            <div className="mt-24 lg:flex lg:flex-row-reverse lg:items-center">
               <div className="lg:w-1/2 lg:flex lg:justify-center">
                 <div className="flex flex-col">
                   <h2 className="questrial font-bold text-white text-4xl">Benefact solves both problems</h2>
