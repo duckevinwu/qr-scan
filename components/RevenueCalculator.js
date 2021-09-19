@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class RevenueCalulator extends React.Component {
+export default class RevenueCalculator extends React.Component {
   constructor(props) {
     super(props)
 
