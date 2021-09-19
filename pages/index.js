@@ -26,7 +26,7 @@ export default function Home() {
           </div>
             <div className="hero-info-container flex items-center justify-center">
               <div className="flex flex-col items-center lg:flex-row">
-                <div className="text-center lg:text-left lg:mr-10 mb-16 lg:mb-0 flex items-center lg:w-1/2">
+                <div className="text-center mt-8 lg:mt-0 lg:text-left lg:mr-10 mb-16 lg:mb-0 flex items-center lg:w-1/2">
                   <div>
                     <h1 className="text-4xl md:text-5xl questrial mb-6 font-bold">
                       The easiest way to get <font className="text-purple-500 questrial">repeat customers</font>
@@ -39,7 +39,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="flex items-center justify-center lg:-mt-12 lg:w-1/2">
+                <div className="flex items-center justify-center pb-12 lg:pb-0 lg:-mt-12 lg:w-1/2">
                   <img alt="hero" src="/hero.png" className="hero-image"></img>
                 </div>
               </div>
