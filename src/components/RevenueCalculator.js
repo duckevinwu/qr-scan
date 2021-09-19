@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import '../../styles/globals.css'
 
 export default class RevenueCalculator extends React.Component {
   constructor(props) {
