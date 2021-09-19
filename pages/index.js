@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
 // components
-import CycleSelect from '..src/components/CycleSelect'
-import RevenueCalculator from '..src/components/RevenueCalculator'
+import CycleSelect from '../src/components/CycleSelect'
+import RevenueCalculator from '../src/components/RevenueCalculator'
 
 export default function Home() {
   return (
