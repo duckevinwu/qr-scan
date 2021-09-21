@@ -42,7 +42,7 @@ export default class CycleSelect extends React.Component {
             </div>
             <div data-value="3" onClick={this.handleClick} className={`${this.state.selected === '3' ? this.divSelected : this.divUnselected} cycle-select-box transition duration-200 ease-in-out border rounded-lg shadow-md p-3`}>
               <div className="flex flex-col">
-                <h3 className="questrial text-2xl font-bold">Redeem and spend</h3>
+                <h3 className="questrial text-2xl font-bold">More customers, more revenue</h3>
                 <p className="mt-2">Every time a customer comes in to redeem their deal, they’ll spend more money on top of their deal</p>
               </div>
             </div>

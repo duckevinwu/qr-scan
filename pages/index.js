@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>Benefact</title>
-        <meta name="description" content="Benefact helps small businesses retain customers and grow revenue." />
+        <meta name="description" content="Benefact helps local businesses retain customers and grow revenue." />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.min.css"/>
       </Head>
@@ -32,7 +32,7 @@ export default function Home() {
                       The easiest way to get <font className="text-purple-500 questrial">repeat customers</font>
                     </h1>
                     <p className="sm:text-lg leading-relaxed mb-6 text-gray-800">
-                      Benefact helps small businesses retain customers and grow revenue.
+                      Benefact helps local businesses retain customers and grow revenue.
                     </p>
                     <a href="#pricing">
                       <button className="transition duration-300 ease-in-out text-white bg-black border-0 py-3 px-6 focus:outline-none rounded hover:bg-purple-400 hover:text-black cursor-pointer">Get started <i className="bi-chevron-right ml-6"></i></button>
@@ -55,10 +55,10 @@ export default function Home() {
                 <div className="flex flex-col">
                   <h2 className="questrial font-bold text-white text-4xl">We all know what's wrong</h2>
                   <p className="text-gray-300 border-l-4 border-gray-300 pl-2 mt-6">
-                    Many small businesses struggle to attract customers during weekdays.
+                    Many local businesses struggle to attract customers during weekdays.
                   </p>
                   <p className="text-gray-300 border-l-4 border-gray-300 pl-2 mt-6">
-                    Small businesses often lack a direct communication method with their customers.
+                    Local businesses often lack a direct communication method with their customers.
                   </p>
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function Home() {
                 <div className="flex flex-col">
                   <h2 className="questrial font-bold text-white text-4xl">Benefact solves both problems</h2>
                   <p className="text-gray-300 border-l-4 border-gray-300 pl-2 mt-6">
-                    We help small businesses communicate weekly deals to customers via text to boost revenue when it’s needed most.
+                    We help local businesses communicate weekly deals to customers via text to boost revenue when it’s needed most.
                   </p>
                   <p className="text-gray-300 border-l-4 border-gray-300 pl-2 mt-6">
                     Forget about newspaper ads, SEO marketing, and email chains — our direct-to-customer texting solution gets you right in front of your customers instantly.
@@ -87,7 +87,7 @@ export default function Home() {
         <div className="divider-section-reverse md:block hidden"></div>
         <section className="mb-20">
           <div className="container mx-auto px-3 pt-12 lg:px-5">
-            <h3 className="questrial uppercase text-gray-600 tracking-widest">Built for small businesses</h3>
+            <h3 className="questrial uppercase text-gray-600 tracking-widest">Built for local businesses</h3>
             <h2 className="questrial text-4xl mt-6 mb-12 font-bold">The best way to reach and retain your customers.</h2>
             <CycleSelect className="hidden lg:flex"/>
             <div className="lg:hidden flex flex-col">
@@ -110,7 +110,7 @@ export default function Home() {
               <div className="pb-12">
                 <img className="h-28" src="/grow.png" alt="grow"></img>
                 <div className="flex flex-col py-6">
-                  <h3 className="questrial text-2xl font-bold border-l-4 pl-2 border-black">Redeem and spend</h3>
+                  <h3 className="questrial text-2xl font-bold border-l-4 pl-2 border-black">More customers, more revenue</h3>
                   <p className="mt-2 text-gray-600">Every time a customer comes in to redeem their deal, they’ll spend more money on top of their deal</p>
                 </div>
               </div>
