@@ -27,12 +27,14 @@ function Test() {
         </div>
         <div className="flex flex-col flex-grow bg-white rounded-tr-3xl p-4 z-10 -mt-4 md:rounded-b-xl">
           <div className="w-32 h-32 p-2 rounded-lg shadow-lg border-2 border-gray-200 flex justify-center items-center bg-white -mt-20">
-            <Image
-              src="https://upload.wikimedia.org/wikipedia/commons/4/40/BigBallerBrand.jpg"
-              alt="business-logo"
-              width="480"
-              height="226"
-            />
+            <div className="w-28 h-28 relative">
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/4/40/BigBallerBrand.jpg"
+                alt="business-logo"
+                layout="fill"
+                objectFit="contain"
+              />
+            </div>
           </div>
           <div className="mt-4 mb-12">
             <h1 className="text-3xl questrial font-bold">Big Baller Brand</h1>
