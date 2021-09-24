@@ -78,7 +78,7 @@ const Join = () => {
             {(isLoaded) ?
               <a
                 href={`sms:+1${phone}?&body=${data.subscribeMessage}`}
-                className="w-full bg-black text-white text-center p-3 rounded hover:bg-purple-700 transition"
+                className="w-full bg-black text-white text-center p-3 rounded hover:bg-purple-700 transition duration-300"
               >
                 Join now!
               </a>
@@ -89,9 +89,7 @@ const Join = () => {
               By texting, you agree to receive marketing text messages from our company at the number used, including messages sent by autodialer.
               Consent is not a condition of purchase.
               Message and data rates may apply.
-              Message frequency varies.
               Reply HELP for help or STOP to cancel.
-              View our Privacy Policy and Terms of Service.
             </p>
           </div>
         </div>
